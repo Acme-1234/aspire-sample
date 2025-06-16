@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp1.AppHost", "AspireApp1.AppHost\AspireApp1.AppHost.csproj", "{7C0A4B85-2DB1-4F73-AC68-43D38A204A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp1.ServiceDefaults", "AspireApp1.ServiceDefaults\AspireApp1.ServiceDefaults.csproj", "{53D24348-B1DC-95A1-1953-B48BBD597BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp1.ApiService", "AspireApp1.ApiService\AspireApp1.ApiService.csproj", "{2047DFA8-A1E7-E01D-D2A2-7F4257468FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp1.Web", "AspireApp1.Web\AspireApp1.Web.csproj", "{47748777-477E-4F3C-F7DC-60AD998A5426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Hosting.Redpanda", "Aspire.Hosting.Redpanda\Aspire.Hosting.Redpanda.csproj", "{6632F2E1-EFB9-4123-9B9D-4366ADA7B2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Hosting.Materialize", "Aspire.Hosting.Materialize\Aspire.Hosting.Materialize.csproj", "{943211ED-4419-455C-AF7B-2E058262526B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C0A4B85-2DB1-4F73-AC68-43D38A204A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0A4B85-2DB1-4F73-AC68-43D38A204A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0A4B85-2DB1-4F73-AC68-43D38A204A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0A4B85-2DB1-4F73-AC68-43D38A204A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D24348-B1DC-95A1-1953-B48BBD597BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D24348-B1DC-95A1-1953-B48BBD597BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D24348-B1DC-95A1-1953-B48BBD597BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D24348-B1DC-95A1-1953-B48BBD597BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2047DFA8-A1E7-E01D-D2A2-7F4257468FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2047DFA8-A1E7-E01D-D2A2-7F4257468FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2047DFA8-A1E7-E01D-D2A2-7F4257468FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2047DFA8-A1E7-E01D-D2A2-7F4257468FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47748777-477E-4F3C-F7DC-60AD998A5426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47748777-477E-4F3C-F7DC-60AD998A5426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47748777-477E-4F3C-F7DC-60AD998A5426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47748777-477E-4F3C-F7DC-60AD998A5426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6632F2E1-EFB9-4123-9B9D-4366ADA7B2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6632F2E1-EFB9-4123-9B9D-4366ADA7B2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6632F2E1-EFB9-4123-9B9D-4366ADA7B2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6632F2E1-EFB9-4123-9B9D-4366ADA7B2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943211ED-4419-455C-AF7B-2E058262526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943211ED-4419-455C-AF7B-2E058262526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943211ED-4419-455C-AF7B-2E058262526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943211ED-4419-455C-AF7B-2E058262526B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {277898A6-2EA3-4359-BC1A-B21ED0F503DA}
+	EndGlobalSection
+EndGlobal
